@@ -25,6 +25,7 @@ const ProductSchema = mongoose.Schema(
     },
   },
   {
+    // By including { timestamps: true } in the schema options, you're instructing Mongoose to manage these createdAt and updatedAt fields automatically for each document created using this schema. This is helpful for tracking when documents are created and updated in the database, which can be useful for auditing, versioning, or other purposes.
     timestamps: true,
   }
 );
