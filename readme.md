@@ -1,4 +1,5 @@
-## npm init -y
+### npm i
+### npm run server
 
 # to do:
 ## add ui for adding , deleting, editing
