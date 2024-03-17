@@ -5,7 +5,7 @@ const app = express();
 
 require('dotenv').config()
 
-// middleware
+// middleware for allowing to send data to the db in json and form url encoded types
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
